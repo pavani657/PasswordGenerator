@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #121212;
+    color: #e0e0e0;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background: #1f1f1f;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 320px;
+}
+
+.container h1 {
+    margin-bottom: 20px;
+    color: #4caf50;
+}
+
+.password-display {
+    font-size: 20px;
+    margin: 10px 0;
+    background: #333;
+    padding: 15px;
+    border-radius: 8px;
+    position: relative;
+}
+
+.password-display input {
+    width: 100%;
+    background: transparent;
+    border: none;
+    color: #e0e0e0;
+    font-size: 20px;
+    text-align: center;
+}
+
+.copy-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #4caf50;
+}
+
+.slider {
+    width: 100%;
+    margin: 10px 0;
+}
+
+.options {
+    text-align: left;
+    margin: 10px 0;
+}
+
+.options label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.strength {
+    margin: 10px 0;
+    background: #444;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+button {
+    padding: 12px;
+    font-size: 16px;
+    width: 100%;
+    background-color: #4caf50;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    color: #fff;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.feedback {
+    color: #4caf50;
+    margin-top: 10px;
+}
